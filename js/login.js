@@ -10,7 +10,7 @@ document.getElementById('submit-button').addEventListener('click', function(){
 
     if(userEmail == 'admin@gmail.com' && userPass == '123456'){
         alert("Login Successfull");
-        window.location.href = "../banking.html"
+        window.location.href = "banking.html"
     } else  if(userEmail != 'admin@gmail.com' || userPass != '123456'){
         alert("UserName or Password is not valid");
     
